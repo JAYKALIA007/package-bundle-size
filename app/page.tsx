@@ -113,8 +113,8 @@ export default function Home() {
             <CardTitle className="text-destructive">Error</CardTitle>
           </CardHeader>
           <CardContent>
-            <p>{error}</p>
-            <p className="mt-2 text-sm text-muted-foreground">
+            {/* <p>{error}</p> */}
+            <p className="text-sm text-muted-foreground">
               This could be due to an invalid package name or network issues.
               Please try again.
             </p>
